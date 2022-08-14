@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+        <title>Toyota Australia: New Cars, SUVs, 4WDs, Utes, Hybrids</title>
+       <script src="https://kit.fontawesome.com/28379da9f1.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+  <div id="mySidenav" class="sidenav"> 
+    <a href="javascript:void(0)"
+class="closebtn"
+     onclick="closeNav()">&times;</a>
+        <center>
+                <p><a href="https://www.toyota.com.au/corporate">Company</a></p>
+                <p><a href="https://www.toyota.com.au/contact">Contact Us</a></p>
+                <p><a href="https://www.toyota.com.au/support">Help & Support</a></p>
+                <p><a href="https://www.toyota.com.au/find-a-dealer">Find a Dealer</a></p>
+                <p><a href="https://www.toyota.com.au/toyota-guest-charter">Toyota Guest Charter</a></p>
+        </center>
+  </div>
+  <span style="font-size:30px; cursor:pointer"
+       onclick="openNav()">&#9776; Menu</span>
+            <script>
+              function openNav() {
+                document.getElementById("mySidenav").
+                   style.width = "100%";
+              }
+            function closeNav(){
+              document.getElementById("mySidenav").
+              style.width = "0";
+            }
+            </script>
+    <img src="tlogoi.png" class="logo"><br><br>
+        <div class = "welcome"> Welcome to Toyota </div><br>
+        <div class = "DISCOVER_LANDCRUISER_300"> DISCOVER LANDCRUISER 300 ></div><br>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="toyota2.png" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="toyota.jpg" style="width:100%">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="toyota1.jpg" style="width:100%">
+            </div>
+            
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+            <script>
+                let slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  let i;
+                  let slides = document.getElementsByClassName("mySlides");
+                  let dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+
+        <p class="img1">Toyota Australia is committed to the health and safety of all people working within, or in contact with, our business and community. Find out more information on our response to COVID-19 here.</p>
+          <br>  
+        <div class="subp">Find your ideal Toyota</div>
+           <div class="suba">Browse our vehicles</div><br>
+                <div class="row">
+                    <div class="column">
+                        <img src="tside1.png" class="side" style="width:100%"><span class="tside1" style="font-family: 'Nunito Sans', sans-serif; font-size: 25px;">Hatchbacks & Sedans</span><br><span class="tside11" style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;" >Urban cars in a range of sizes</span><br><br><a href="https://www.toyota.com.au/cars" style="display: inline; font-family: 'Nunito Sans', sans-serif; font-size: 16px; font-weight: 700; text-decoration: none; color: black;">SEE THEM ALL</a>
+                             </div><br>
+                    <div class="column">
+                        <img src="tside2.png" class="side"style="width:100%"><span class="tside1" style="font-family: 'Nunito Sans', sans-serif; font-size: 25px;">SUV & 4WD</span><br><span class="tside11" style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;" >Built for the Australian terrain</span><br><br><a href="https://www.toyota.com.au/suvs-4wds" style="display: inline; font-family: 'Nunito Sans', sans-serif; font-size: 16px; font-weight: 700; text-decoration: none; color: black;" >SEE THEM ALL</a>
+                    </div><br>
+
+                    <div class="column">
+                        <img src="tside3.png" class="side" style="width:100%"><span class="tside1" style="font-family: 'Nunito Sans', sans-serif; font-size: 25px;">Utes & Vans</span><br><span class="tside11" style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;" >Tough and intelligent vehicles built for hard work</span><br><br><a href="https://www.toyota.com.au/utes-and-vans" style="display: inline; font-family: 'Nunito Sans', sans-serif; font-size: 16px; font-weight: 700; text-decoration: none; color: black;" >SEE THEM ALL</a>
+                    </div><br>
+                            
+                    <div class="column">
+                        <img src="tside4.png" class="side" style="width:100%"><span class="tside1" style="font-family: 'Nunito Sans', sans-serif; font-size: 25px;">GR & Performance</span><br><span class="tside11" style="font-family: 'Nunito Sans', sans-serif; font-size: 20px;" >Dynamic sports vehicles engineered for precision</span><br><br><a href="https://www.toyota.com.au/gr-performance" style="display: inline; font-family: 'Nunito Sans', sans-serif; font-size: 16px; font-weight: 700; text-decoration: none; color: black;" >SEE THEM ALL</a><br><br>
+                    </div><br>
+                </div></div><hr>
+                <div class="footer10">
+                  <i class="fa-solid fa-circle-exclamation"></i><span style="font-size: 20px; font-family: 'Nunito Sans', sans-serif; font-weight: 700;" > Warning  URGENT RECALL: Toyota Australia has issued a series of recalls involving a number of vehicle models as part of the global Takata airbag recall campaign. <a href="https://www.toyota.com.au/recalls" class="learn_more"> LEARN MORE</a></span>
+                </div>
